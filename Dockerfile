@@ -1,4 +1,4 @@
-FROM        quay.io/prometheus/busybox:latest
+FROM        arm64v8/busybox:latest
 LABEL maintainer "The Prometheus Authors <prometheus-developers@googlegroups.com>"
 
 COPY prometheus                             /bin/prometheus
